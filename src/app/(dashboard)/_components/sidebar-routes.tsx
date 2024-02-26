@@ -1,17 +1,17 @@
 "use client"
 
-import { Sidebar } from "lucide-react";
-import SidebarItem from "./sidebar-item";
+import { SidebarItem } from "./sidebar-item";
+import { Layout, Compass } from "lucide-react";
 
 const guestRoutes = [
     {
-        icon: "Layout",
-        label: "Dashboard",
+        icon: Layout,
+        label: "Գլխավոր էջ",
         href: "/",
     },
     {
-        icon: "Compass",
-        label: "Browse",
+        icon: Compass,
+        label: "Փնտրել",
         href: "/search",
     },
 ]
