@@ -1,0 +1,119 @@
+[33mcommit a2153d47d8a863ac7d4eb3387a8454e0f713c3df[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 22:58:44 2024 +0400
+
+    Trying to POST in db (ERROR 500)
+
+[33mcommit c13a2b857f8946b2d52e8369f6de05a9aea9080e[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 22:33:46 2024 +0400
+
+    Added a DB, 'Prisma', 'Aiven', created prisma schema
+
+[33mcommit 6c037000a34af7f2b79d0be692ab5c3aaf221cd8[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 21:23:32 2024 +0400
+
+    Installed 'Prisma' package
+
+[33mcommit 2bfee4cf042abdc1fc76b31a15322071343839ca[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 21:18:59 2024 +0400
+
+    Added 'React Toast' for error message
+
+[33mcommit fe556c90eadb4931527efaec03708d9655ba791d[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 20:58:49 2024 +0400
+
+    Adding Form for create a course
+
+[33mcommit 3123e60eaaa7e5286c7849849607a77dd347e36d[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 19:58:41 2024 +0400
+
+    Added 'Create Course' button, changed some font weight
+
+[33mcommit 6d186a5a76661ec2c3dbd4b7f830a4e49c1e386f[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 17:40:53 2024 +0400
+
+    Added sidebar for Teacher mode
+
+[33mcommit f83c8f82690e531c0c2fbcb6c5b74bde380af75a[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 17:31:57 2024 +0400
+
+    Added Teacher mode
+
+[33mcommit 940e33aaf52604b2495d97e5c934deac1f425d01[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Wed Feb 28 16:23:22 2024 +0400
+
+    Added UserButton for sign-out and manage account
+
+[33mcommit 7d92bbc8c370ee302afb1ec4f1148a2040bfaecd[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Tue Feb 27 21:13:51 2024 +0400
+
+    Added mobile sidebar with hamburder
+
+[33mcommit 81aa1839d06dae27c6a5549dc9af046b73d95209[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Tue Feb 27 20:19:51 2024 +0400
+
+    Worked on Slidebar
+
+[33mcommit 77cbbb54b57aecc65b6a8d9614873c00391f08e9[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Mon Feb 26 22:48:34 2024 +0400
+
+    Making guestRoutes, slidebar-routes, slidebar-item
+
+[33mcommit 1d7969f27e3a70ef5dfbc5bb1c2211ccd0f595a1[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Mon Feb 26 18:16:25 2024 +0400
+
+    Added logo, worked on sidebar
+
+[33mcommit cbd31cd922aa49b7c55ccdccd9b1deba98914730[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Mon Feb 26 17:49:11 2024 +0400
+
+    Auth/login/logout
+
+[33mcommit 27d72daf8e6e1fc0ae264aea4df58a68513be26b[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Mon Feb 26 14:15:11 2024 +0400
+
+    Adding Clerk
+
+[33mcommit 47653d6df7e32e40abccb24e911a6a4f9683ea1a[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Mon Feb 26 12:42:09 2024 +0400
+
+    Adding a structure
+
+[33mcommit a276dd433f06c60b2a346bd4f7808bdbe6e1bfbc[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Sun Feb 25 13:33:03 2024 +0400
+
+    Folders setup
+
+[33mcommit d30c4dad45f90d48916f8317bd994d62e25ca2db[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Sat Feb 24 23:12:34 2024 +0400
+
+    Introduction
+
+[33mcommit 206e252d9e4cfbda285c887bb9e8dfaaa8fcd0e4[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Fri Feb 23 20:22:27 2024 +0400
+
+    test
+
+[33mcommit 88cee48413024c9ccb7a792e1b3153011aa01224[m
+Author: Hovhannes Petrosyan <hovopetrosyan2000@gmail.com>
+Date:   Fri Feb 23 20:04:37 2024 +0400
+
+    Initial commit from Create Next App
