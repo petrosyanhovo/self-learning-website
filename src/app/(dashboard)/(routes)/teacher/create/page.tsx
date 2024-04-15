@@ -22,7 +22,7 @@ import { Input } from "@/components/ui/input";
 
 const formSchema = z.object({
   title: z.string().min(1, {
-    message: "Title is required",
+    message: "Անվանումը պարտադիր է",
   }),
 });
 
@@ -41,9 +41,9 @@ const CreatePage = () => {
     try {
       const response = await axios.post("/api/courses", values);
       router.push(`/teacher/courses/${response.data.id}`);
-      toast.success("Course created");
+      toast.success("Դասընթացը ստեղծվեց");
     } catch {
-      toast.error("Something went wrong");
+      toast.error("Ինչ-որ բան այն չէ");
     }
   }
 
@@ -51,10 +51,10 @@ const CreatePage = () => {
     <div className="max-w-5xl mx-auto flex md:items-center md:justify-center h-full p-6">
       <div>
         <h1 className="text-2xl">
-          Name your course
+          Դասընթացի անվանում
         </h1>
         <p className="text-sm text-slate-600">
-          What would you like to name your course? Don&apos;t worry, you can change this later.
+          Ի՞նչ անվանում եք ուզում տալ ձեր դասընթացին, այն կարող եք փոփոխել հետագայում։
         </p>
         <Form {...form}>
           <form
@@ -67,17 +67,17 @@ const CreatePage = () => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>
-                    Course title
+                    Դասընթացի անվանում
                   </FormLabel>
                   <FormControl>
                     <Input
                       disabled={isSubmitting}
-                      placeholder="e.g. 'Advanced web development'"
+                      placeholder="օր.՝ «Կայքերի մշակում»"
                       {...field}
                     />
                   </FormControl>
                   <FormDescription>
-                    What will you teach in this course?
+                    Ի՞նչ եք սովորեցնելու այս դասընթացում:
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -89,14 +89,14 @@ const CreatePage = () => {
                   type="button"
                   variant="ghost"
                 >
-                  Cancel
+                  Չեղարկել
                 </Button>
               </Link>
               <Button
                 type="submit"
                 disabled={!isValid || isSubmitting}
               >
-                Continue
+                Շարունակել
               </Button>
             </div>
           </form>
