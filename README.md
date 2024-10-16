@@ -1,3 +1,12 @@
+Self-Learning Website
+This project is a self-learning platform offering two user modes: Student and Teacher. The platform allows students to explore workshops, each containing multiple topics. Key features include:
+
+Workshops & Topics Locking: Certain workshops and topics can be locked, requiring purchase to unlock.
+Progress Tracking: Each workshop displays a completion scale, showing students how many topics they've completed, in percentage.
+Teacher Mode: Teachers can create, edit, and delete workshops and their topics. Topics can be set as premium or free. Teachers also have access to analytics about workshop sales.
+Purchase Methods: A secure purchasing system enables students to unlock premium content.
+This repository showcases a dynamic and scalable learning environment for educators and students alike.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
